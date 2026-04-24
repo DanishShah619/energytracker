@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="HttpHistory">
+    <option name="httpHistories">
+      <map>
+        <entry key="0">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;id&quot;: 0,&#10;  &quot;name&quot;: &quot;Danish&quot;,&#10;  &quot;surname&quot;: &quot;shah&quot;,&#10;  &quot;email&quot;: &quot;shahdan@gmail.com&quot;,&#10;  &quot;address&quot;: &quot;7/1gcdlane&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="0" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Danish&quot;,&quot;surname&quot;:&quot;shah&quot;,&quot;email&quot;:&quot;shahdan@gmail.com&quot;,&quot;address&quot;:&quot;7/1gcdlane&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-04-24 20:54:33" />
+              <option name="uri" value="/api/v1/user" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="1">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="1" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;Danish&quot;,&quot;surname&quot;:&quot;shah&quot;,&quot;email&quot;:&quot;shahdan@gmail.com&quot;,&quot;address&quot;:&quot;7/1gcdlane&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-04-24 20:56:09" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;id&quot;: 0,&#10;  &quot;name&quot;: &quot;&quot;,&#10;  &quot;surname&quot;: &quot;shanilshah&quot;,&#10;  &quot;email&quot;: &quot;&quot;,&#10;  &quot;address&quot;: &quot;&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="2" />
+              <option name="method" value="PUT" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="0" />
+                </map>
+              </option>
+              <option name="res" value="User not found" />
+              <option name="time" value="2026-04-24 20:57:16" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;id&quot;: 0,&#10;  &quot;name&quot;: &quot;&quot;,&#10;  &quot;surname&quot;: &quot;shanilshah&quot;,&#10;  &quot;email&quot;: &quot;&quot;,&#10;  &quot;address&quot;: &quot;&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="3" />
+              <option name="method" value="PUT" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="User updated successfully" />
+              <option name="time" value="2026-04-24 20:57:35" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <ReqHistory>
+              <option name="body" value="{&#10;  &quot;id&quot;: 1,&#10;  &quot;name&quot;: &quot;shah&quot;,&#10;  &quot;surname&quot;: &quot;dan&quot;,&#10;  &quot;email&quot;: &quot;dna@hajsm.com&quot;,&#10;  &quot;address&quot;: &quot;iejdj&quot;,&#10;  &quot;alerting&quot;: false,&#10;  &quot;energyAlertingThreshold&quot;: 0&#10;}" />
+              <option name="contentType" value="application/json" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map>
+                  <entry key="Content-Type" value="application/json" />
+                </map>
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="4" />
+              <option name="method" value="POST" />
+              <option name="params">
+                <map />
+              </option>
+              <option name="res" value="{&quot;id&quot;:2,&quot;name&quot;:&quot;shah&quot;,&quot;surname&quot;:&quot;dan&quot;,&quot;email&quot;:&quot;dna@hajsm.com&quot;,&quot;address&quot;:&quot;iejdj&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-04-24 21:39:52" />
+              <option name="uri" value="/api/v1/user" />
+            </ReqHistory>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <ReqHistory>
+              <option name="body" value="" />
+              <option name="contentType" value="application/x-www-form-urlencoded" />
+              <option name="fileNames">
+                <array />
+              </option>
+              <option name="headers">
+                <map />
+              </option>
+              <option name="host" value="http://127.0.0.1:8080" />
+              <option name="id" value="5" />
+              <option name="method" value="GET" />
+              <option name="params">
+                <map>
+                  <entry key="id" value="1" />
+                </map>
+              </option>
+              <option name="res" value="{&quot;id&quot;:1,&quot;name&quot;:&quot;&quot;,&quot;surname&quot;:&quot;shanilshah&quot;,&quot;email&quot;:&quot;&quot;,&quot;address&quot;:&quot;&quot;,&quot;alerting&quot;:false,&quot;energyAlertingThreshold&quot;:0.0}" />
+              <option name="time" value="2026-04-24 21:40:26" />
+              <option name="uri" value="/api/v1/user/{id}" />
+            </ReqHistory>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
