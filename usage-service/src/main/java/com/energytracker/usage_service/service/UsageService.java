@@ -1,6 +1,8 @@
 package com.energytracker.usage_service.service;
 
 
+import com.energytracker.kafka.event.AlertingEvent;
+import com.energytracker.kafka.event.EnergyUsageEvent;
 import com.energytracker.usage_service.client.DeviceClient;
 import com.energytracker.usage_service.client.UserClient;
 import com.energytracker.usage_service.dto.DeviceDto;
@@ -8,9 +10,15 @@ import com.energytracker.usage_service.dto.UsageDto;
 import com.energytracker.usage_service.dto.UserDto;
 import com.energytracker.usage_service.model.Device;
 import com.energytracker.usage_service.model.DeviceEnergy;
+import com.influxdb.client.InfluxDBClient;
+import com.influxdb.client.QueryApi;
+import com.influxdb.client.domain.WritePrecision;
+import com.influxdb.query.FluxRecord;
+import com.influxdb.query.FluxTable;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
