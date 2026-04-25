@@ -13,6 +13,7 @@ import com.energytracker.usage_service.model.DeviceEnergy;
 import com.influxdb.client.InfluxDBClient;
 import com.influxdb.client.QueryApi;
 import com.influxdb.client.domain.WritePrecision;
+import com.influxdb.client.write.Point;
 import com.influxdb.query.FluxRecord;
 import com.influxdb.query.FluxTable;
 import lombok.extern.slf4j.Slf4j;
@@ -22,7 +23,7 @@ import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import java.awt.*;
+import java.util.*;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
