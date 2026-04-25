@@ -183,7 +183,8 @@ services:
       restart: unless-stopped
 
 
+
 volumes:
   db-data:
   kafka-data:
-  grafana-db:
+  grafana-data:

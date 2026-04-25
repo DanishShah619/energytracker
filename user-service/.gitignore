@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Database volume data (should never be committed)
+volume-data/
+influxdb_data/
+
+# Unix socket files
+*.sock
